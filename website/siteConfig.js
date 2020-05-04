@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Agiledrop Docs', // Title for your website.
   tagline: 'A website for frequently used code snippets',
   url: 'https://xetro.github.io', // Your website URL
-  baseUrl: '/agiledrop-docs', // Base URL for your project */
+  baseUrl: '/agiledrop-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
