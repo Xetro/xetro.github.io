@@ -21,6 +21,13 @@ const users = [
 ];
 
 const siteConfig = {
+  // Search credentials
+  algolia: {
+    apiKey: 'aee40fc98ecafeb7a5cb0cabfa5dac52',
+    indexName: 'agiledrop',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   title: 'Agiledrop Docs', // Title for your website.
   tagline: 'A website for frequently used code snippets',
   url: 'https://xetro.github.io', // Your website URL
@@ -53,8 +60,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#36799c',
-    secondaryColor: '#25546d',
+    secondaryColor: '#ef4623',
+    primaryColor: '#032633',
   },
 
   /* Custom fonts for website */
